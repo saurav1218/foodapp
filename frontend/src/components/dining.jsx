@@ -13,7 +13,7 @@ const Dining = () => {
 
   useEffect(() => {
     let fetchingDining = async () => {
-      let initialDining = await axios.get("http://localhost:4000/dining")
+      let initialDining = await axios.get("https://foodapp-oglx.onrender.com/dining")
 
       setDining(initialDining.data)
       setDomi_Dining(initialDining.data)

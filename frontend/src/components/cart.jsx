@@ -25,7 +25,7 @@ const Cart = () => {
 
    useEffect(() => {
     let fetchningFirst = async () => {
-       let fetchPart1 = await axios.get('http://localhost:4000/cart')
+       let fetchPart1 = await axios.get('https://foodapp-oglx.onrender.com/cart')
        setCartData(fetchPart1.data)
     }
     fetchningFirst()

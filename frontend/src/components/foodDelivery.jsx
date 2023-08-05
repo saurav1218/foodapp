@@ -14,7 +14,7 @@ const FoodDelivery = () => {
 
 useEffect(()=>{
   let fetchingFoodData = async () => {
-    let res = await axios.get('http://localhost:4000/foodhub')
+    let res = await axios.get('https://foodapp-oglx.onrender.com/foodhub')
     setFood(res.data)
     setDom(res.data)
   }
@@ -46,7 +46,7 @@ useEffect(()=>{
 
     useEffect(()=>{
       let fetchingBookmark = async()=>{
-         let initialBookmark = await axios.get("http://localhost:4000/bookmark")
+         let initialBookmark = await axios.get("https://foodapp-oglx.onrender.com/bookmark")
          setBookmark(initialBookmark.data)
       }
       fetchingBookmark()
@@ -54,7 +54,7 @@ useEffect(()=>{
 
   let submit = ( img1,restaurant_title1,restaurant_address1,restaurant_timing1, description1, amount1,rating1) => {
      
-    axios.post('http://localhost:4000/bookmark', {img:img1,restaurant_title:restaurant_title1,restaurant_address:restaurant_address1, restaurant_timing:restaurant_timing1, description:description1, amount:amount1,rating:rating1}).then((res) => {
+    axios.post('https://foodapp-oglx.onrender.com/bookmark', {img:img1,restaurant_title:restaurant_title1,restaurant_address:restaurant_address1, restaurant_timing:restaurant_timing1, description:description1, amount:amount1,rating:rating1}).then((res) => {
        alert(res.data.message)
     })
  }

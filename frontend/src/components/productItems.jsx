@@ -24,7 +24,7 @@ const ProductItems = () => {
 
    useEffect(() => {
       let fetchingFoodData = async () => {
-         let res = await axios.get('http://localhost:4000/foodhub')
+         let res = await axios.get('https://foodapp-oglx.onrender.com/foodhub')
       
          setUpperItems(res.data)
 
@@ -77,7 +77,7 @@ const ProductItems = () => {
 
    let submit = (title1, img1, description1, amount1,type1,qty1, rating1) => {
      
-      axios.post('http://localhost:4000/cart', {  title: title1, img: img1, description: description1, amount: amount1, type:type1,qty:qty1,rating: rating1 }).then((res) => {
+      axios.post('https://foodapp-oglx.onrender.com/cart', {  title: title1, img: img1, description: description1, amount: amount1, type:type1,qty:qty1,rating: rating1 }).then((res) => {
          alert(res.data.message)
       })
    }
@@ -91,7 +91,7 @@ const ProductItems = () => {
 
    useEffect(() => {
       let fetchningFirst = async () => {
-         let fetchPart1 = await axios.get('http://localhost:4000/cart')
+         let fetchPart1 = await axios.get('https://foodapp-oglx.onrender.com/cart')
          setCart(fetchPart1.data)
       }
       fetchningFirst()

@@ -14,7 +14,7 @@ const BookMark = () => {
 
     useEffect(() => {
         let fetchningFirst = async () => {
-            let fetchPart1 = await axios.get('http://localhost:4000/bookmark')
+            let fetchPart1 = await axios.get('https://foodapp-oglx.onrender.com/bookmark')
             setBookmark(fetchPart1.data)
         }
         fetchningFirst()

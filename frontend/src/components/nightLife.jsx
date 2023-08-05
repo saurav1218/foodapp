@@ -12,7 +12,7 @@ const Nightlife = () => {
     
     useEffect(() => {
         let fetchingNightOut = async () => {
-            let initialNightOut = await axios.get("http://localhost:4000/nightLife")
+            let initialNightOut = await axios.get("https://foodapp-oglx.onrender.com/nightLife")
             setLife(initialNightOut.data)
             setDomi_Life(initialNightOut.data)
         }

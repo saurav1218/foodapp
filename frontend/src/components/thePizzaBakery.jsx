@@ -18,7 +18,7 @@ const ThePizzaBakery = () => {
      
     useEffect(() => {
         let fetchData = async () => {
-            let fetchingPizza = await fetch("http://localhost:4000/thePizzaBakery")
+            let fetchingPizza = await fetch("https://foodapp-oglx.onrender.com/thePizzaBakery")
             let afterFetching = await fetchingPizza.json()
             setPizza(afterFetching)
             setDomi(afterFetching)
@@ -64,7 +64,7 @@ const ThePizzaBakery = () => {
                 let type = x.type
                 let qty =  x.qty
 
-                fetch("http://localhost:4000/cart",{
+                fetch("https://foodapp-oglx.onrender.com/cart",{
 
                 method : "POST",
                 headers : {"Content-Type":"application/json"},
@@ -88,7 +88,7 @@ const ThePizzaBakery = () => {
      
   useEffect(()=>{
     let fetchningFirst = async()=>{
-        let fetchPart1 = await fetch("http://localhost:4000/cart")
+        let fetchPart1 = await fetch("https://foodapp-oglx.onrender.com/cart")
         let fetchPart2 = await fetchPart1.json()
 
         setCart(fetchPart2)
