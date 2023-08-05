@@ -1,0 +1,65 @@
+
+{
+    "thePizzaBakery": [
+        {
+         "type":"veg",
+          "id":1,
+          "img":"https://b.zmtcdn.com/data/dish_photos/f64/1eb17f40ca767939bf9a97237668af64.jpg?fit=around|130:130&crop=130:130;*,*",
+          "title":"Quattro Stagioni Pizza",
+          "rating": "4.7",
+          "amount": 450,
+          "qty":1,
+          "description": "Broccoli, artichoke, bell pepper, black olive, feta, mozzarella, micro greens. Experience authentic Italian flavours with our San Marzano tomato sauce & slow-fermented sourdough base, charred to perfection in a wood-fired oven!"
+         },
+        {
+            "type":"veg",
+            "id":2,
+            "img":"https://b.zmtcdn.com/data/dish_photos/e77/bad99d039d4697b52cdf66bb5221ee77.jpg?fit=around|130:130&crop=130:130;*,*",
+            "title":"Popo's Veggie Delight Pizza",
+            "rating": "4.3",
+            "amount":390,
+            "qty":1,
+            "description":"Bell peppers, sun-dried tomato, black olive, zucchini, jalapeno, feta, micro greens, mozzarella. Experience authentic Italian flavours with our San Marzano tomato sauce & slow-fermented sourdough base, charred to perfection in a wood-fired oven!"       
+         },
+         {
+            "type":"veg",
+            "id":3,
+            "img":"https://b.zmtcdn.com/data/dish_photos/67a/b6bfc1bd2fdf33d8b6c50c413c42367a.jpg?fit=around|130:130&crop=130:130;*,*",
+            "title":"Italian Margherita Pizza",
+            "rating": "4.4",
+            "amount":320,
+            "qty":1,
+            "description":"Fior di latte mozzarella, san marzano tomato sauce & basil. Experience authentic Italian flavours with our slow-fermented sourdough base, charred to perfection in a wood-fired oven!"
+         },
+         {
+            "type":"veg",
+            "id":4,
+            "img":"https://b.zmtcdn.com/data/dish_photos/52e/3e224934dc7951e6e519a96b3c54552e.jpg?fit=around|130:130&crop=130:130;*,*",
+            "title":"Stuffed Garlic Bread with Sun-dried Tomatoes",
+            "rating": "3.9",
+            "amount":298,
+            "qty":1,
+            "description":"stuffed with a duet of caramelized onion & mozzarella. Topped with our juicy sun-dried tomatoes. Served with homemade garlic aioli. Chef recommends! *dip_contains_egg."
+         },
+         {
+            "type":"nonveg",
+            "id":5,
+            "img":"https://b.zmtcdn.com/data/dish_photos/00b/6af9fadfea3028663ee4b12cec1b100b.jpg?fit=around|130:130&crop=130:130;*,*",
+            "title":"Chicken Pizzaiola",
+            "rating": "4.6",
+            "amount":599,
+            "qty":1,
+            "description":"Grilled chicken, black olive, sun-dried tomatoes, red paprika, sriracha aioli, mozzarella, parmesan. Experience authentic Italian flavours with our San Marzano tomato sauce & slow-fermented sourdough base!"
+         },
+         {
+            "type":"nonveg",
+            "id":6,
+            "img":"https://b.zmtcdn.com/data/dish_photos/e2c/ce7a42ae35be098ea213bd84fa159e2c.jpg?fit=around|130:130&crop=130:130;*,*",
+            "title":"Stuffed Garlic Bread with Chicken & Sun-dried Tomatoes",
+            "rating": "4.4",
+            "amount":399,
+            "qty":1,
+            "description":"stuffed with a duet of caramelized onion & mozzarella. Topped with roasted chicken & juicy sun-dried tomatoes!. Served with homemade garlic aioli."
+         }
+    ]
+}

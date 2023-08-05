@@ -1,0 +1,110 @@
+*{
+    margin: 0px;
+}
+.headPart1{
+    background-image: url(https://shorturl.at/gmBG8);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+}
+.headPart1 h1{
+    color: aliceblue;
+    transform: translateY(100px);
+    font-weight: 700;
+    margin-left: 550px;
+}
+.headPart1 p{
+    color: aliceblue;
+    transform: translateY(100px);
+    font-weight: 400;
+    font-size: 30px;
+    margin-top: 10px;
+    margin-left: 350px;
+}
+.headPart2 a{
+    text-decoration: none;
+}
+.headPart2{
+    display: flex;
+    justify-content: space-evenly;
+}
+.card1 img{
+    margin-top: 15px;
+    margin-left: 15px;
+    height: 200px;
+    width: 280px;
+    border-radius: 10px;
+}
+.card1 p{
+    margin-top: 15px;
+    margin-left: 15px;
+    width: 280px;
+    color: rgba(0, 0, 0, 0.743);
+}
+.card1 h4{
+    color: rgba(0, 0, 0, 0.635);
+    margin-left: 20px;
+    margin-top: 5px;
+}
+.card1{
+    margin-left: 40px;
+    margin-top: 10px;
+    border: 1px solid black;
+    width: 315px;
+    height: 290px;
+    border-radius: 15px;
+}
+
+.card2 img{
+    margin-top: 15px;
+    margin-left: 15px;
+    height: 200px;
+    width: 280px;
+    border-radius: 10px;
+}
+.card2 p{
+    margin-top: 15px;
+    margin-left: 15px;
+    width: 280px;
+    color: rgba(0, 0, 0, 0.743);
+}
+.card2 h4{
+    color: rgba(0, 0, 0, 0.635);
+    margin-left: 20px;
+    margin-top: 5px;
+}
+.card2{
+    margin-left: 40px;
+    margin-top: 10px;
+    border: 1px solid black;
+    width: 315px;
+    height: 290px;
+    border-radius: 15px;
+}
+.card3 img{
+    margin-top: 15px;
+    margin-left: 15px;
+    height: 200px;
+    width: 280px;
+    border-radius: 10px;
+}
+.card3 p{
+    margin-top: 15px;
+    margin-left: 15px;
+    width: 280px;
+    color: rgba(0, 0, 0, 0.743);
+}
+.card3 h4{
+    color: rgba(0, 0, 0, 0.635);
+    margin-left: 20px;
+    margin-top: 5px;
+}
+.card3{
+    margin-left: 40px;
+    margin-top: 10px;
+    border: 1px solid black;
+    width: 315px;
+    height: 290px;
+    border-radius: 15px;
+}

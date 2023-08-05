@@ -1,0 +1,64 @@
+{
+    "nightLife": [
+        {
+            "id": 1,
+            "img": "https://b.zmtcdn.com/data/pictures/6/18853706/af9dd4cd1216093fb442bca38f4bf174_featured_v2.jpg",
+            "title": "Brahma Brews",
+            "rating": "4.6",
+            "description": "Asian, North Indian",
+            "amount": 2500 ,
+            "place": "JP Nagar,Bangalore",
+            "distance": "8.7 km"
+        },
+        {
+            "id": 2,
+            "img": "https://b.zmtcdn.com/data/pictures/5/19231655/41f7d2df9453c5da3c5fdc564e6c14bf_featured_v2.jpg",
+            "title": "Oyster Bar & Kitchen",
+            "rating": "4.5",
+            "description": "Pizza, Chinese",
+            "amount": 1600,
+            "place": "HSR,Bangalore",
+            "distance": "8.2 km"
+        },
+        {
+            "id": 3,
+            "img": "https://b.zmtcdn.com/data/pictures/8/20628188/a08e2a276a42528f11acce7cd6e7724d_featured_v2.jpg",
+            "title": "Babylonia - Cocktails",
+            "rating": "4.5",
+            "description": "Continental, Italian, Mughlais",
+            "amount": 1500,
+            "place": "Koramangala 7th Block,Bangalore",
+            "distance": "4.6 km"
+        },
+        {
+            "id": 4,
+            "img": "https://b.zmtcdn.com/data/pictures/5/18537585/d971e1b240e2f40ca903aa1b51252fb3_featured_v2.jpg",
+            "title": "The Reservoire",
+            "rating": "4.4",
+            "description": "Biryani, Bar Food, Desserts, Beverages",
+            "amount": 2000 ,
+            "place": "Koramangala 5th Block,Bangalore",
+            "distance": "8.7 km"
+        },
+        {
+            "id": 5,
+            "img": "https://b.zmtcdn.com/data/pictures/5/20250255/fd0bc561e76db0f4094934084b8c4a50_featured_v2.jpg",
+            "title": "Peepai",
+            "rating": "4.6",
+            "description": "Pizza, Chinese, European, Beverages",
+            "amount": 2500,
+            "place": "Hebbal,Bangalore",
+            "distance": "9.3 km"
+        },
+        {
+            "id": 6,
+            "img": "https://b.zmtcdn.com/data/pictures/9/20402369/9fb8e8ae2561ac2d96d66428e207d730.jpg?fit=around|771.75:416.25&crop=771.75:416.25;*,*",
+            "title": "The Fixx",
+            "rating": "4.2",
+            "description": "North Indian, Seafood, Biryani, Beverages",
+            "amount": 1800,
+            "place": "Koramangala 4th Block,Bangalore",
+            "distance": "8.7 km"
+        }
+    ]
+}

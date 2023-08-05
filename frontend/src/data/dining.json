@@ -1,0 +1,64 @@
+{
+    "dining": [
+        {
+                "id":1,
+                "img":"https://b.zmtcdn.com/data/pictures/0/20669940/63f06decab6708ced4e4476b62e4b2e7_featured_v2.jpg?output-format=webp",
+                "title": "Oia",
+                "rating": "3.8",
+                "description":"Seafood, Salad, Pizza, North Indian, Desserts",
+                "amount": 2500,
+                "place": "Hennur,Bangalore",
+                "distance": "13 km"     
+        },
+        {
+            "id":2,
+            "img":"https://b.zmtcdn.com/data/pictures/7/19672427/fab0f327a0193957ee122f8c72c4d2f9_featured_v2.jpg?output-format=webp",
+            "title": "Ironhill Bengaluru",
+            "rating": "4.5",
+            "description":"Fast Food, Biryani, Beverages, Desserts",
+            "amount": 2000,
+            "place": "Marathahalli,Bangalore",
+            "distance": "11.6 km" 
+            },
+            {
+                "id":3,
+                "img":"https://b.zmtcdn.com/data/pictures/0/20540040/04ac68e98bd062fbaf9b66af8d233094_featured_v2.jpg?output-format=webp",
+                "title": "Magique",
+                "rating": "4.0",
+                "description":"Sushi, Salad, Desserts, Beverages",
+                "amount": 2000,
+                "place": "Koramangala 6th Block,Bangalore",
+                "distance": "5.2 km"  
+            },
+            {
+                "id":4,
+                "img":"https://b.zmtcdn.com/data/pictures/0/20531530/629962f40194383a29f028fa2ea2dfbd_featured_v2.jpg?output-format=webp",
+                "title": "Roxie",
+                "rating": "4.5",
+                "description":"Continental, Asian, European, Italian",
+                "amount": 2600,
+                "place": "Sarjapur Road,Bangalore",
+                "distance": "10 km"  
+            },
+            {
+                "id":5,
+                "img":"https://b.zmtcdn.com/data/pictures/7/19209267/431e67c4ce2f04ba1a687daad6f0da73_featured_v2.jpg?output-format=webp",
+                "title": "Sky Garden",
+                "rating": "4.1",
+                "description":"Continental, North Indian, Pizza",
+                "amount": 2600,
+                "place": "Whitefield,Bangalore",
+                "distance": "12.1 km"  
+            },
+            {
+                "id":6,
+                "img":"https://b.zmtcdn.com/data/pictures/chains/5/20478855/c05533227fb3ec385da1e3e466abc19d_featured_v2.jpg?output-format=webp",
+                "title": "Long Boat Brewing Co.",
+                "rating": "4.2",
+                "description":"Asian, Steak, Pizza, Pasta",
+                "amount": 2000,
+                "place": "Marathahalli,Bangalore",
+                "distance": "11.7 km"  
+            }
+    ]
+}

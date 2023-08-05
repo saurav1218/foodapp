@@ -1,0 +1,22 @@
+{
+  "cart": [
+    {
+      "img": "https://b.zmtcdn.com/data/dish_photos/594/3b1e9f2246c6fd7c25b1c267c6503594.jpg?fit=around|130:130&crop=130:130;*,*",
+      "title": "Harissa Chicken Pizza",
+      "description": "Pizza topped with Hot Harissa flavored chicken chunks, onions, cherry tomatoes, and broccoli. 9 Kcal - 1145",
+      "amount": 575,
+      "type": "nonveg",
+      "qty": 1,
+      "id": 1
+    },
+    {
+      "img": "https://b.zmtcdn.com/data/dish_photos/4bc/5d082c9d8ffcd1bddf208c81a35494bc.jpg?fit=around|130:130&crop=130:130;*,*",
+      "title": "Baguette Cheese Garlic Bread",
+      "description": "With melting mozzarella cheese. Kcal - 800x",
+      "amount": 245,
+      "type": "veg",
+      "qty": 1,
+      "id": 2
+    }
+  ]
+}

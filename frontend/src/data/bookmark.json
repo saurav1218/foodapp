@@ -1,0 +1,18 @@
+{
+  "bookmark": [
+    {
+      "img": "https://shorturl.at/ijpY9",
+      "restaurant_title": "The Pizza Bakery",
+      "description": "Pizza,Pasta,Desserts, Coffee, Cafe",
+      "amount": 600,
+      "id": 1
+    },
+    {
+      "img": "https://b.zmtcdn.com/data/pictures/chains/5/19795685/24425a5422ab880c8f9c34cedf3a18a5.jpg?fit=around|771.75:416.25&crop=771.75:416.25;*,*",
+      "restaurant_title": "ITC Master Chef Creations",
+      "description": "North Indian, Biryani,Desserts",
+      "amount": 800,
+      "id": 2
+    }
+  ]
+}

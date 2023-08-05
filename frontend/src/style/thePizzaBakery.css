@@ -1,0 +1,115 @@
+.pizza{
+    display: flex;
+}
+/* .extraTag{
+    display: flex;
+    margin-top: 3px;
+} */
+/* #bestseller{
+    background-color: orange;
+    width: 80px;
+    border-radius: 5px;
+    text-align: center;
+}
+#mustTry{
+    background-color: rgb(83, 140, 238);
+    width: 80px;
+    margin-left: 5px;
+    border-radius: 5px;
+    text-align: center;
+} */
+.bake{
+    display: flex;
+    margin-top: 20px;
+}
+.bake3{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.cart{
+    margin-right: 190px;
+    display: flex;
+}
+#cartImg{
+    margin-right: 10px;
+}
+#supCard{
+    display:none;
+    font-weight: bolder;
+    font-size: 12px;
+}
+.bake3 input{
+    width: 280px;
+    height: 40px;
+    color: rgba(0, 0, 0, 0.305);
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.505);
+    text-align: right;
+    padding-right: 50px;
+    font-size: 20px;
+}
+.bake4{
+    margin-top: 10px;
+}
+
+#veg{
+    margin-left:5px ;
+   margin-right:15px;
+}
+#all{
+    margin-left:15px;
+}
+.fetchThePizza{
+  margin-top: 20px;
+}
+.fetchThePizza img{
+    border-radius: 10px;
+    height: 170px;
+}
+.fetchThePizza1{
+  margin-top: 20px;
+  margin-left: 10px;
+}
+.fetchThePizza2{
+    display: flex;
+}
+.mainPizzaBakery{
+    margin-left: 110px;
+}
+#desc{
+    color: rgba(0, 0, 0, 0.564);
+    margin-top: 5px;
+}
+#place{
+    color: rgba(48, 46, 46, 0.56);
+    margin-top: 5px;
+}
+#time{
+    color: orange;
+}
+#thePizzaAmt{
+    color: rgba(0, 0, 0, 0.639);
+    margin-top: 7px;
+}
+#thePizzaRating{
+        margin-top: 7px;
+        margin-left: 20px; 
+        border-radius: 10px;
+         text-align: center;
+        background-color: rgb(36, 150, 63) ;
+        width: 40px;
+       border: 1px solid rgb(36, 150, 63);  
+       justify-content: space-between;
+}
+#thePizzaDec{
+    width: 600px;
+    margin-top: 7px;
+}
+#cart{
+    background-color: rgba(255, 166, 0, 0.625);
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-top: 7px;
+    height: 30px;
+}

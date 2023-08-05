@@ -1,0 +1,75 @@
+.restaurant{
+    display: flex;
+}
+.bakeProduct{
+    display: flex;
+    margin-top: 20px;
+}
+.bake3Product{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.cart{
+    margin-right: 190px;
+    display: flex;
+}
+#cartImg{
+    margin-right: 10px;
+}
+#supCard{
+    display:none;
+    font-weight: bolder;
+    font-size: 12px;
+}
+.bake3Product input{
+    width: 280px;
+    height: 40px;
+    color: rgba(0, 0, 0, 0.305);
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.505);
+    text-align: right;
+    padding-right: 50px;
+    font-size: 20px;
+}
+.bake4Product{
+    margin-top: 10px;
+}
+
+#veg{
+    margin-left:5px ;
+   margin-right:15px;
+}
+#all{
+    margin-left:15px;
+}
+
+.fetchTheRestaurant{
+    margin-top: 20px;
+  }
+  .fetchTheRestaurant img{
+      border-radius: 10px;
+      height: 170px;
+  }
+  .fetchTheRestaurant1{
+    margin-top: 20px;
+    margin-left: 10px;
+  }
+  .fetchTheRestaurant2{
+      display: flex;
+  }
+  .mainProductItems{
+    margin-left: 110px;
+
+  }
+  #desc{
+    color: rgba(0, 0, 0, 0.564);
+    margin-top: 5px;
+}
+#place{
+    color: rgba(48, 46, 46, 0.56);
+    margin-top: 5px;
+}
+#time{
+    color: orange;
+}

@@ -1,0 +1,78 @@
+.fetchingCartItem{
+   margin-top: 60px;
+   margin-left: 250px;
+   border: 1px solid rgba(0, 0, 0, 0.379);
+   width: 700px;
+   box-shadow: 5px 5px 5px black;
+}
+#cartPage{
+   margin-left: 20px;
+}
+.fetch1Cart{
+   display: flex;
+   margin-left: 20px;
+   margin-top: 20px;
+}
+.fetch4Amt{
+   margin-left: 200px;
+   color: rgba(0, 0, 0, 0.564);
+   margin-top: 20px;
+}
+#typeCart{
+   color: rgba(0, 0, 0, 0.781);
+   margin-top: 5px;
+}
+.fetch2Cart img{
+    height: 110px;
+    border-radius: 10px;
+}
+.fetch3Cart{
+   margin-left: 15px;
+}
+#totalAmt{
+   margin-left: 30px;
+   margin-top: 30px;
+   font-size: 30px;
+   display: inline-block;
+}
+#totalCartPrice{
+   display: inline-block;
+   font-size: 30px;
+   margin-left: 430px;
+}
+.fetch6Cart button{
+   margin-top: 20px;
+   margin-bottom: 10px;
+   background-color: red;
+   width: 700px;
+   border: none;
+   height: 40px;
+   font-size: 30px;
+}
+#titleCart{
+   width: 300px;
+}
+#incCart{
+  border: none;
+  margin-right: 5px;
+  font-size: 18px;
+  margin-top: 10px;
+}
+#decCart{
+   border: none;
+   margin-left: 5px;
+  font-size: 18px;
+  margin-top: 10px;
+}
+#qtyCart{
+   display: inline-block;
+  margin-top: 10px;
+}
+.cont_Cart a{
+      text-decoration: none;
+      color: blue;
+   font-size: 20px;
+   text-align: center;
+   padding-bottom: 20px;
+
+}

@@ -1,0 +1,132 @@
+.routingFoodDelivery{
+display: flex;
+justify-content: space-between;
+background-color: navy;
+height: 70px;
+}
+.route1FoodDelivery{
+    display: flex;
+}
+.route1FoodDelivery a{
+    font-size:25px;
+    text-decoration: none;
+    color: #ffffff;
+    margin-left: 50px;
+}
+.route1FoodDelivery a:hover{
+    text-decoration: underline;
+    color: orangered;
+    font-size: 32px;
+    transition: 0.2s;
+}
+.route2FoodDelivery a{
+    font-size:30px;
+    text-decoration: none;
+    color: #ffffff;
+    margin-right: 150px;
+}
+.route2FoodDelivery a:hover{
+    text-decoration: underline;
+    color: orangered;
+    font-size: 32px;
+    transition: 0.2s;
+}
+.foodDelivery h2{
+    margin-top: 20px;
+    margin-left: 100px;
+    font-size: 30px;
+    color: rgba(0, 0, 0, 0.664);
+}
+.filterDemo{
+    margin-top: 20px;
+   margin-left: 100px;
+}
+.filterDemo button{
+    margin-left: 10px;
+    border-radius: 5px;
+    height: 30px;
+    border: 1px solid rgba(0, 0, 0, 0.403);
+    color: rgba(0, 0, 0, 0.577);
+    background-color: rgba(0, 0, 0, 0.268);
+}
+.fetching{
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 100px; 
+}
+.iconFood{
+    display: flex;
+    align-items: center;
+}
+.iconFood img{
+ transform: translateX(40px)
+}
+.icon1Food{
+    display: flex;
+    align-items: center;
+    margin-top: 8px;
+}
+.icon1Food img{
+    transform: translateX(140px);
+     text-align: center;
+}
+#homeFood{
+    border: 1px solid black;
+    border-radius: 25px;
+}
+#scooterFood{
+    border: 1px solid black;
+    background-color: #ffffff;
+    border-radius: 25px;
+}
+#tableFood{
+    border: 1px solid black;
+    background-color: #ffffff;
+    border-radius: 25px;
+}
+#partyFood{
+    border: 1px solid black;
+    background-color: #ffffff;
+    border-radius: 25px;
+}
+.fetch1{
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+}
+.fetch2{
+    display: flex;
+    justify-content: space-between;
+    color: rgba(0, 0, 0, 0.531);
+    width: 300px;
+}
+#description{
+    width: 300px;
+}
+#amountFood{
+    width: 200px;
+    margin-left: 40px;
+}
+#image{
+    border-radius: 15px;
+}
+#rating{
+    border-radius: 10px;
+    background-image: url(https://icons8.com/icon/104/star);
+    background-color: rgb(36, 150, 63) ;
+    width: 40px;
+   border: 1px solid rgb(36, 150, 63);
+}
+.fetch1 a{
+    text-decoration: none;
+    color: black;
+}
+.fetch3{
+    margin-left: 0px;
+    color: rgba(0, 0, 0, 0.526);
+    display: flex;
+    justify-content: space-between;
+}
+.fetch3 h4{
+    margin-top: 5px;
+}

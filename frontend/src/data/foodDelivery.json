@@ -1,0 +1,464 @@
+{
+    "foodDelivery": [
+        {
+            "id": 1,
+            "img": "https://shorturl.at/ijpY9",
+            "img1": "https://b.zmtcdn.com/data/pictures/chains/2/18603822/ece76957e63b73a5fb092fb8ea5cef23_featured_v2.jpg?fit=around|771.75:416.25&crop=771.75:416.25;*,*",
+            "img2": "https://b.zmtcdn.com/data/pictures/chains/2/18603822/5db19b23b647cee4006a35db489bd1bc.jpg?fit=around|300:273&crop=300:273;*,*",
+            "img3": "https://b.zmtcdn.com/data/pictures/3/20704773/54c1de6b5f2081a97a2ebf4e6e1b4228.jpg?fit=around|300:273&crop=300:273;*,*",
+            "restaurant_title": "The Pizza Bakery",
+            "description": "Pizza,Pasta,Desserts, Coffee, Cafe",
+            "rating": "4.1",
+            "amount": 600,
+            "time": "32 min",
+            "restaurant_address": "Koramangala 5th Block, Bangalore",
+            "restaurant_timing": "Open now - 12noon – 11pm (Today)",
+            "data": [
+                {
+                    "type": "veg",
+                    "id": 1,
+                    "img": "https://b.zmtcdn.com/data/dish_photos/f64/1eb17f40ca767939bf9a97237668af64.jpg?fit=around|130:130&crop=130:130;*,*",
+                    "title": "Quattro Stagioni Pizza",
+                    "rating": "4.7",
+                    "amount": 450,
+                    "qty": 1,
+                    "description": "Broccoli, artichoke, bell pepper, black olive, feta, mozzarella, micro greens. Experience authentic Italian flavours with our San Marzano tomato sauce & slow-fermented sourdough base, charred to perfection in a wood-fired oven!"
+                },
+                {
+                    "type": "veg",
+                    "id": 2,
+                    "img": "https://b.zmtcdn.com/data/dish_photos/e77/bad99d039d4697b52cdf66bb5221ee77.jpg?fit=around|130:130&crop=130:130;*,*",
+                    "title": "Popo's Veggie Delight Pizza",
+                    "rating": "4.3",
+                    "amount": 390,
+                    "qty": 1,
+                    "description": "Bell peppers, sun-dried tomato, black olive, zucchini, jalapeno, feta, micro greens, mozzarella. Experience authentic Italian flavours with our San Marzano tomato sauce & slow-fermented sourdough base, charred to perfection in a wood-fired oven!"
+                },
+                {
+                    "type": "veg",
+                    "id": 3,
+                    "img": "https://b.zmtcdn.com/data/dish_photos/67a/b6bfc1bd2fdf33d8b6c50c413c42367a.jpg?fit=around|130:130&crop=130:130;*,*",
+                    "title": "Italian Margherita Pizza",
+                    "rating": "4.4",
+                    "amount": 320,
+                    "qty": 1,
+                    "description": "Fior di latte mozzarella, san marzano tomato sauce & basil. Experience authentic Italian flavours with our slow-fermented sourdough base, charred to perfection in a wood-fired oven!"
+                },
+                {
+                    "type": "veg",
+                    "id": 4,
+                    "img": "https://b.zmtcdn.com/data/dish_photos/52e/3e224934dc7951e6e519a96b3c54552e.jpg?fit=around|130:130&crop=130:130;*,*",
+                    "title": "Stuffed Garlic Bread with Sun-dried Tomatoes",
+                    "rating": "3.9",
+                    "amount": 298,
+                    "qty": 1,
+                    "description": "stuffed with a duet of caramelized onion & mozzarella. Topped with our juicy sun-dried tomatoes. Served with homemade garlic aioli. Chef recommends! *dip_contains_egg."
+                },
+                {
+                    "type": "nonveg",
+                    "id": 5,
+                    "img": "https://b.zmtcdn.com/data/dish_photos/00b/6af9fadfea3028663ee4b12cec1b100b.jpg?fit=around|130:130&crop=130:130;*,*",
+                    "title": "Chicken Pizzaiola",
+                    "rating": "4.6",
+                    "amount": 599,
+                    "qty": 1,
+                    "description": "Grilled chicken, black olive, sun-dried tomatoes, red paprika, sriracha aioli, mozzarella, parmesan. Experience authentic Italian flavours with our San Marzano tomato sauce & slow-fermented sourdough base!"
+                },
+                {
+                    "type": "nonveg",
+                    "id": 6,
+                    "img": "https://b.zmtcdn.com/data/dish_photos/e2c/ce7a42ae35be098ea213bd84fa159e2c.jpg?fit=around|130:130&crop=130:130;*,*",
+                    "title": "Stuffed Garlic Bread with Chicken & Sun-dried Tomatoes",
+                    "rating": "4.4",
+                    "amount": 399,
+                    "qty": 1,
+                    "description": "stuffed with a duet of caramelized onion & mozzarella. Topped with roasted chicken & juicy sun-dried tomatoes!. Served with homemade garlic aioli."
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "img": "https://b.zmtcdn.com/data/pictures/chains/5/19795685/24425a5422ab880c8f9c34cedf3a18a5.jpg?fit=around|771.75:416.25&crop=771.75:416.25;*,*",
+            "img1": "https://b.zmtcdn.com/data/pictures/5/20709035/8a3a4edfc56d32e168cb8dd26e59d528.jpg?fit=around|771.75:416.25&crop=771.75:416.25;*,*",
+            "img2": "https://b.zmtcdn.com/data/pictures/chains/5/19795685/95efd20287295b362c64a3ea8a530346.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A",
+            "img3": "https://b.zmtcdn.com/data/dish_photos/294/1a941c393df35834104c2a12e5b60294.jpg?fit=around|130:130&crop=130:130;*,*",
+            "restaurant_title": "ITC Master Chef Creations",
+            "description": "North Indian, Biryani,Desserts",
+            "rating": "4.0",
+            "amount": 800,
+            "time": "30 min",
+            "restaurant_address": "Koramangala 7th Block, Bangalore",
+            "restaurant_timing": "Open now - 1pm – 11pm (Today)",
+            "data": [
+                {
+                    "type": "veg",
+                    "id": 1,
+                    "img": "https://b.zmtcdn.com/data/dish_photos/9cb/7c3f112067b6fbd8ecdf4efeb1c489cb.jpg?fit=around|130:130&crop=130:130;*,*",
+                    "title": "Dal Makhani",
+                    "rating": "4.2",
+                    "amount": 363,
+                    "qty": 1,
+                    "description": "We bring to you the earthiness of slow cooked Dal finished in the distinctly traditional Punjabi Pindi style. Allergens: Dairy Nutritional Information(Per 100g):Energy (Kcal):159.58,Protein (g):13.1,Carbohydrate (g):3.13,Fat (g):8.94 Serving Size: 365g!"
+                },
+                {
+                    "type": "veg",
+                    "id": 2,
+                    "img": "https://b.zmtcdn.com/data/dish_photos/e6c/43ab5ca897b468ae4b4b63e3d1f39e6c.jpg?fit=around|130:130&crop=130:130;*,*",
+                    "title": "Jodhpuri Moong Dal Halwa",
+                    "rating": "4.6",
+                    "amount": 393,
+                    "qty": 1,
+                    "description": "A deliciously cooked dessert made from moong dal simmered in khoya and cooked with almonds and flavored with saffron to give you that perfect northwestern Indian delicacy. Allergens: Dairy, Nuts Nutritional Information (Per 100g): Kcal(g): 347, Protein(g): 23.86, Carbohydrate (g): 62.62, Fat (g): 1.15 Serving Size: 200g!"
+                },
+                {
+                    "type": "nonveg",
+                    "id": 3,
+                    "img": "https://b.zmtcdn.com/data/dish_photos/a5d/92cd3978137f3a827d82c966f597fa5d.jpg?fit=around|130:130&crop=130:130;*,*",
+                    "title": "Murgh Tikke Ki Makhani And Tawa Paratha Meal (Serves 1)",
+                    "rating": "4.1",
+                    "amount": 591,
+                    "qty": 1,
+                    "description": "Our ode to an all time classic -- A 70 year old recipe of Tandoori chicken tikkas getting tossed in a silky tomato gravy lush with butter and cream, paired with 2 of our whole wheat parathas, choice of beverage, sirka pyaz & mango pickle Allergens:Gluten, Milk, Egg, Nuts Nutritional Information (Per 100g):Protein(g)9.05,Carbohydrate(g)26.85,Energy(Kcal)178.06,Fat(g)9.35 Disclosure: For allergens/nutritional information (including calories and serving size), please refer the individual item!"
+                },
+                {
+                    "type": "nonveg",
+                    "id": 4,
+                    "img": "https://b.zmtcdn.com/data/dish_photos/294/1a941c393df35834104c2a12e5b60294.jpg?fit=around|130:130&crop=130:130;*,*",
+                    "title": "Murgh Dum Biryani (Chicken Biryani) [900 grams]",
+                    "rating": "4.7",
+                    "amount": 686,
+                    "qty": 1,
+                    "description": "Succulent chicken leg marinated in select spices and yoghurt, slow cooked on Dum, layered with long grain fragrant basmati rice to create this rich delicacy with a perfect balance of spices and subtle aroma. Served with creamy Burhani raita and Laccha Pyaaz. Allergens: Dairy Nutritional Information(Per 100g):Energy (Kcal):216.67,Protein (g):9.67,Carbohydrate (g):17.93,Fat (g):10.99 Serving Size: 900g!"
+                },
+                {
+                    "type": "veg",
+                    "id": 5,
+                    "img": "https://b.zmtcdn.com/data/dish_photos/59a/906e44f6098b9dbb826313e67da8b59a.jpg?fit=around|130:130&crop=130:130;*,*",
+                    "title": "Paneer Handi And Tawa Paratha Meal (Serves 2)",
+                    "rating": "4.9",
+                    "amount": 893,
+                    "qty": 1,
+                    "description": "This is our ode to an all time favourite classic -- Cottage cheese cubes stir fried with diced onions and diced capsicum, cooked in a spicy, nutty gravy of onions, yoghurt and tomatoes, paired with 2 whole wheat lacchedar parathas and 2 kulcha dal makhani, sirka pyaz and mango pickle. For a sweet end to your meal, select dessert of your choice. Allergens:Gluten, Milk,Nuts Nutritional Information (Per 100g):Protein (g)8.52,Carbohydrate (g)37.69,Energy(Kcal)287.04,Fat (g)13.79 Disclosure: For allergens/nutritional information (including calories and serving size), please refer the individual item"
+                },
+                {
+                    "type": "nonveg",
+                    "id": 6,
+                    "img": "https://b.zmtcdn.com/data/dish_photos/c61/15f684ce0bc2f274cafa49224c644c61.jpg?fit=around|130:130&crop=130:130;*,*",
+                    "title": "Murgh Kebab Platter (Serves 2)",
+                    "rating": "4.9",
+                    "amount": 1653,
+                    "qty": 1,
+                    "description": "Murgh Tikka (8 pcs) + Murgh Malai Tikka (8 pcs) + Tandoori Chicken Tangdi Kebab (4 pcs) Allergens:Milk, Egg, Soy Nutritional Information (Per 100g):Protein (g)11.25,Carbohydrate (g)13.84,Energy(Kcal)217.11,Fat (g)6.23 Serving Size: 1178 gms"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "img": "https://b.zmtcdn.com/data/pictures/chains/3/50633/da35d506e0ab3c04cc9d5470b75788ce.jpg?fit=around|771.75:416.25&crop=771.75:416.25;*,*",
+            "img1": "https://b.zmtcdn.com/data/pictures/chains/3/50633/da35d506e0ab3c04cc9d5470b75788ce.jpg?fit=around|771.75:416.25&crop=771.75:416.25;*,*",
+            "img2": "https://b.zmtcdn.com/data/pictures/chains/3/50633/e787f79bb40cbffb6d185f182a8f31af.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A",
+            "img3": "https://b.zmtcdn.com/data/pictures/chains/3/50633/e53f5cb11f8616eb756adb5c7abeff88.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A",
+            "restaurant_title": "Mainland China",
+            "description": "Chinese, Sushi, Seafood",
+            "rating": "4.4",
+            "amount": 400,
+            "time": "20 min",
+            "restaurant_address": "Church Street, Bangalore",
+            "restaurant_timing": "Open now - 12noon – 3:30pm, 7pm – 11pm (Today)",
+            "data": [
+                {
+                    "type": "veg",
+                    "id": 1,
+                    "img": "https://b.zmtcdn.com/data/dish_photos/2c5/ee054bf65ae816d33a6c7ee9cb72d2c5.jpg?fit=around|130:130&crop=130:130;*,*",
+                    "title": "Wok Tossed Hakka Noodles Vegetable",
+                    "rating": "4.2",
+                    "amount": 495,
+                    "qty": 1,
+                    "description": "Fresh noodles tossed with carrot, cabbage, green capsicum, beans sprouts, spring onions.~550 g 1148 kcal *CONTAINS Soybean and their products, Cereals containing gluten"
+                },
+                {
+                    "type": "nonveg",
+                    "id": 2,
+                    "img": "https://b.zmtcdn.com/data/dish_photos/298/ed936a71c1fffe639f0da3dbce8ba298.jpg?fit=around|130:130&crop=130:130;*,*",
+                    "title": "Chilli Smoked Shrimps",
+                    "rating": "4.5",
+                    "amount": 595,
+                    "qty": 1,
+                    "description": "Shrimps tossed in a spicy house chilli sauce"
+                },
+                {
+                    "type": "nonveg",
+                    "id": 3,
+                    "img": "https://b.zmtcdn.com/data/dish_photos/e1c/3dc9cebb3c78c6ba5810120d3d0f2e1c.jpg?fit=around|130:130&crop=130:130;*,*",
+                    "title": "Cantonese Rice Noodles Chicken",
+                    "rating": "4.1",
+                    "amount": 565,
+                    "qty": 1,
+                    "description": "Vermicelli Noodles With Shredded Vegetables~460 g 836 kcal *CONTAINS Eggs and egg products, Crustacean and their products, Cereals containing gluten"
+                },
+                {
+                    "type": "veg",
+                    "id": 4,
+                    "img": "https://b.zmtcdn.com/data/dish_photos/0c7/6f38f031d121aa0949bfa6b5b03bd0c7.jpg?fit=around|130:130&crop=130:130;*,*",
+                    "title": "Edamame Dumplings With Truffle Oil",
+                    "rating": "4.7",
+                    "amount": 525,
+                    "qty": 1,
+                    "description": "Dumplings Stuffed With Edamame And Water Chestnuts, Flavoured With Truffle Oil.~170 g 324 kcal *CONTAINS Milk and milk products"
+                },
+                {
+                    "type": "veg",
+                    "id": 5,
+                    "img": "https://b.zmtcdn.com/data/dish_photos/27c/d17af8adac163f2555b4633de043427c.jpg?fit=around|130:130&crop=130:130;*,*",
+                    "title": "Vegetable And Edamame Fried Rice",
+                    "rating": "4.4",
+                    "amount": 495,
+                    "qty": 1,
+                    "description": "Carrot, Corn Kernels, Edamame Beans Tossed With Rice~650 g 2789 kcal"
+                },
+                {
+                    "type": "nonveg",
+                    "id": 6,
+                    "img": "https://b.zmtcdn.com/data/dish_photos/2cd/134b213a6a312f2b40b5014cc9cb42cd.jpg?fit=around|130:130&crop=130:130;*,*",
+                    "title": "Pan Fried Barbecued Fish",
+                    "rating": "4.6",
+                    "amount": 675,
+                    "qty": 1,
+                    "description": "Pan Seared Fish In A Cumin Flavoured Barbecue Sauce.~245 g 1210 kcal *CONTAINS Cereals containing gluten, Eggs and egg products, Fish and Fish products, Soybean and their products, Peanuts, tree nuts and their products"
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "img": "https://b.zmtcdn.com/data/pictures/chains/9/18992489/32d610f2efd2272554c889820de90f06.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A",
+            "img1": "https://b.zmtcdn.com/data/pictures/6/19503146/4a5e198017c6197a9b5ab1c071258c3a.jpg?output-format=webp&fit=around|771.75:416.25&crop=771.75:416.25;*,*",
+            "img2": "https://b.zmtcdn.com/data/pictures/chains/9/18992489/604381ee43e3f0f382ad998974b2caa3.jpg?output-format=webp&fit=around|300:273&crop=300:273;*,*",
+            "img3": "https://b.zmtcdn.com/data/pictures/chains/9/18992489/8b8d1889a2476ab14bd5ffd8c4a77015.jpg?output-format=webp&fit=around|300:273&crop=300:273;*,*",
+            "restaurant_title": "Burger Seigneur",
+            "description": "Burger, American, Continental",
+            "rating": "4.0",
+            "amount": 450,
+            "time": "40 min",
+            "restaurant_address": "1 Sobha, Bangalore",
+            "restaurant_timing": "Open now - 12midnight – 1am, 11am – 12midnight (Today)",
+            "data": [
+                {
+                    "type": "nonveg",
+                    "id": 1,
+                    "img": "https://b.zmtcdn.com/data/dish_photos/70d/b4bd854f9dfc61120affee64a9b5f70d.jpg?fit=around|130:130&crop=130:130;*,*",
+                    "title": "Jack The Ripper",
+                    "rating": "3.9",
+                    "amount": 460,
+                    "qty": 1,
+                    "description": "Ripper chicken and cheddar cheese imbued with Franco-Honey Sauce, drizzled with pickled jalapenos and coleslaw"
+                },
+                {
+                    "type": "nonveg",
+                    "id": 2,
+                    "img": "https://b.zmtcdn.com/data/dish_photos/335/c338b58666373c801c333468d99fe335.jpg?fit=around|130:130&crop=130:130;*,*",
+                    "title": "Dynamite",
+                    "rating": "3.6",
+                    "amount": 480,
+                    "qty": 1,
+                    "description": "A succulent lamb patty grilled with cheddar cheese alongside fresh pomegranates, nachos, pickled jalapenos and the world famous Bay Bay Sauce."
+                },
+                {
+                    "type": "veg",
+                    "id": 3,
+                    "img": "https://b.zmtcdn.com/data/dish_photos/938/c2966dcf7e85aa223099b0314ac8a938.jpg?fit=around|130:130&crop=130:130;*,*",
+                    "title": "Morning Glory Veg",
+                    "rating": "4.2",
+                    "amount": 350,
+                    "qty": 1,
+                    "description": "Veg patty made of soya bean, sweet corn and mushroom with shredded lettuce, cheddar cheese and Bay Bay sauce."
+                },
+                {
+                    "type": "veg",
+                    "id": 4,
+                    "img": "https://b.zmtcdn.com/data/dish_photos/dd3/9379e4a8a46468ccfb66c1710c7f9dd3.jpg?fit=around|130:130&crop=130:130;*,*",
+                    "title": "Dynamite Fries Veg",
+                    "rating": "4.4",
+                    "amount": 290,
+                    "qty": 1,
+                    "description": "A portion of french fries crammed with cheddar cheese, chipotle ranch, jalapenos, crispy roasted onion and repleted with our Signature Sauce."
+                },
+                {
+                    "type": "veg",
+                    "id": 5,
+                    "img": "https://b.zmtcdn.com/data/dish_photos/b63/b17ad617b91d1e8a1a97dd4371186b63.jpg?fit=around|130:130&crop=130:130;*,*",
+                    "title": "Chilli Macane Veg",
+                    "rating": "4.6",
+                    "amount": 290,
+                    "qty": 1,
+                    "description": "Elbow macaroni pasta fused with creamy mozzarella cheese sauce, baked beans, topped with parmesan cheese, parsley and red signature sauce."
+                },
+                {
+                    "type": "nonveg",
+                    "id": 6,
+                    "img": "https://b.zmtcdn.com/data/dish_photos/9cb/27c4b2f41dc00daddda9cd15529439cb.jpg?fit=around|130:130&crop=130:130;*,*",
+                    "title": "Chicken Strips",
+                    "rating": "4.6",
+                    "amount": 280,
+                    "qty": 1,
+                    "description": "Tender, juicy and flavourful chicken strips. (6pcs)"
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "img": "https://b.zmtcdn.com/data/pictures/chains/9/51029/85e76e7cbe98ffa64189945ff3b50caf_o2_featured_v2.jpg",
+            "img1": "https://b.zmtcdn.com/data/pictures/9/51029/f414dafcbdbb7b2865dd74b4d7b83ffc.jpg?output-format=webp&fit=around|771.75:416.25&crop=771.75:416.25;*,*",
+            "img2": "https://b.zmtcdn.com/data/pictures/chains/9/51029/16a832ed25c1dcc5e0268a1920b6c31d.jpg?output-format=webp&fit=around|300:273&crop=300:273;*,*",
+            "img3": "https://b.zmtcdn.com/data/pictures/chains/9/51029/4fc93c280bba295de9faad1dafc5efb4.jpg?output-format=webp&fit=around|300:273&crop=300:273;*,*",
+            "restaurant_title": "Toscano",
+            "description": "Italian, Pizza, Pasta, Fast Food",
+            "rating": "3.8",
+            "amount": 300,
+            "time": "45 min",
+            "restaurant_address": "UB City, Bangalore",
+            "restaurant_timing": "Open now - 12noon – 10:30pm (Today)",
+            "data": [
+                {
+                    "type": "nonveg",
+                    "id": 1,
+                    "img": "https://b.zmtcdn.com/data/dish_photos/594/3b1e9f2246c6fd7c25b1c267c6503594.jpg?fit=around|130:130&crop=130:130;*,*",
+                    "title": "Harissa Chicken Pizza",
+                    "rating": "4.6",
+                    "amount": 575,
+                    "qty": 1,
+                    "description":"Pizza topped with Hot Harissa flavored chicken chunks, onions, cherry tomatoes, and broccoli. 9 Kcal - 1145"
+                },
+                {
+                    "type": "veg",
+                    "id": 2,
+                    "img": "https://b.zmtcdn.com/data/dish_photos/4bc/5d082c9d8ffcd1bddf208c81a35494bc.jpg?fit=around|130:130&crop=130:130;*,*",
+                    "title": "Baguette Cheese Garlic Bread",
+                    "rating": "4.3",
+                    "amount": 245,
+                    "qty": 1,
+                    "description":"With melting mozzarella cheese. Kcal - 800x"
+                },
+                {
+                    
+                        "type": "veg",
+                        "id": 3,
+                        "img": "https://b.zmtcdn.com/data/dish_photos/019/81152bcebf4aec6a4d64e0ec1620c019.jpg?fit=around|130:130&crop=130:130;*,*",
+                        "title": "Classic Garlic Bread",
+                        "rating": "4.5",
+                        "amount": 265,
+                        "qty": 1,
+                        "description":"Garlic Bread filled with roasted garlic, oregano & mozzarella. Kcal - 620"
+                    
+                },
+                {
+                    
+                    "type": "veg",
+                    "id": 4,
+                    "img": "https://b.zmtcdn.com/data/dish_photos/096/ec77e470b068a96ab7d2059297311096.jpg?fit=around|130:130&crop=130:130;*,*",
+                    "title": "Mixed Mushrooms & Olives Garlic bread",
+                    "rating": "4.5",
+                    "amount": 235,
+                    "qty": 1,
+                    "description":"Mixed mushrooms, olives, chili, roasted garlic & stracciatella cheese. Kcal - 527"    
+            },
+            
+            {        
+                "type": "nonveg",
+                "id": 5,
+                "img": "https://b.zmtcdn.com/data/dish_photos/004/c368c0c763443736eff6921c2c9ac004.jpg?fit=around|130:130&crop=130:130;*,*",
+                "title": "Pepperoni Baguette Cheese Garlic Bread",
+                "rating": "4.4",
+                "amount": 265,
+                "qty": 1,
+                "description":"Napoli pork pepperoni with melting mozzarella cheese. Kcal - 555"
+            },
+            {        
+                "type": "nonveg",
+                "id": 6,
+                "img": "https://b.zmtcdn.com/data/dish_photos/b8e/c7a1be40ba0e2af18275f5bb46affb8e.jpg?fit=around|130:130&crop=130:130;*,*",
+                "title": "Pepperoni & Garlic",
+                "rating": "4.7",
+                "amount": 285,
+                "qty": 1,
+                "description":"Napoli pork pepperoni, red onions, oregano and fresh mozzarella cheese Kcal - 581"
+            }
+            ]
+        },
+        {
+            "id": 6,
+            "img": "https://b.zmtcdn.com/data/pictures/chains/6/19704506/163b95356a57fdeed5baf69ee01435bf_o2_featured_v2.jpg",
+            "img1":"https://b.zmtcdn.com/data/pictures/chains/6/19704506/34e86b705776d41c6f87a2bade67cb3f.jpg?output-format=webp&fit=around|771.75:416.25&crop=771.75:416.25;*,*",
+            "img2":"https://b.zmtcdn.com/data/pictures/chains/6/19704506/8e2f1095104abbbdc10bcafde2a23254.jpg?output-format=webp&fit=around|300:273&crop=300:273;*,*",
+            "img3":"https://b.zmtcdn.com/data/pictures/chains/6/19704506/dab3b181e5d5e5f188525b6ef0df5a80.jpg?output-format=webp&fit=around|300:273&crop=300:273;*,*",
+            "restaurant_title": "ITC Sunfeast Baked",
+            "description": "Bakery, Desserts, Sandwich",
+            "rating": "4.5",
+            "amount": 500,
+            "time": "35 min",
+            "restaurant_address": "Commercial Street, Bangalore",
+            "restaurant_timing": "Open now - 3:00pm – 10:30pm (Today)",
+            "data":[
+                {        
+                    "type": "nonveg",
+                    "id": 1,
+                    "img": "https://b.zmtcdn.com/data/dish_photos/8fc/de93cd2915015e403bdea24b4e9a68fc.jpg?fit=around|130:130&crop=130:130;*,*",
+                    "title": "Shredded Chicken & Cheese Pull Apart Garlicky Bagel",
+                    "rating": "4.7",
+                    "amount": 397,
+                    "qty": 1,
+                    "description":"Our Warm Savoury Pull Apart Bagel Loaded With Cream Cheese And Drenched In Garlic Butter, Double Roasted In The Oven Topped With A Generous Helping Of Shredded Chicken & Grated Cheese. Accompanied With Sourdough Crisps And Pesto Rosse Dip Allergens: Wheat, Milk Nutritional Information(Per 100g):Protein(g)11.39,Carbohydrate(g)31.86,Fat(g)21.35,Energy(Kcal)390.79 Serving Size: 210g"
+                },
+                {
+                    "type": "nonveg",
+                    "id": 2,
+                    "img": "https://b.zmtcdn.com/data/dish_photos/20f/c9a65f0a57bf9aef873db9c3f560020f.jpg?fit=around|130:130&crop=130:130;*,*",
+                    "title": "Molten Chocolate Cake (120 gm)",
+                    "rating": "4.8",
+                    "amount": 223,
+                    "qty": 1,
+                    "description":"Indulgence at it's best, moist fluffy cake with a filled dark ganache center. Allergens: Egg, Wheat, Milk Nutritional Information (Per 100g):Kcal:437.86,Protein (g):7.25,Carbohydrate (g):41.06,Fat (g):27.18 Serving Size: 120g "
+                },
+                {
+                    "type": "veg",
+                    "id": 3,
+                    "img": "https://b.zmtcdn.com/data/dish_photos/fae/dbf3e1f42a43cbba54d6ad8315747fae.jpg?fit=around|130:130&crop=130:130;*,*",
+                    "title": "Classic French Butter Croissant (2 Pc)",
+                    "rating": "4.8",
+                    "amount": 277,
+                    "qty": 1,
+                    "description":"Bite into the golden crust of this warm croissant and savor the soft, buttery, flakiness inside. Comes as a pair of croissants. Allergens: Milk, Wheat Nutritional Information( Per 100g):Protein (g)9.1,Carbohydrate (g)15.76,Fat (g)24.57,Energy (Kcal)328.19 Serving Size: 280g"
+                },
+                {
+                    "type": "veg",
+                    "id": 4,
+                    "img": "https://b.zmtcdn.com/data/dish_photos/062/8c8a2b094a658238948bb1a906b2d062.jpg?fit=around|130:130&crop=130:130;*,*",
+                    "title": "Cinnamon Frangipane Croissant",
+                    "rating": "4.2",
+                    "amount": 287,
+                    "qty": 1,
+                    "description":"Bite Into This Rich Flaky And Buttery Almond Croissant Now infused with Cinnamon baked fresh on order Allergens: Wheat, Milk, Nuts Nutritional Information (Per 100g): Kcal(g): 468.26, Protein(g): 9.8, Carbohydrate (g): 50, Fat (g): 25.94 Serving Size:130g"
+                },
+                {
+                    "type": "veg",
+                    "id": 5,
+                    "img": "https://b.zmtcdn.com/data/dish_photos/ad3/ec4ffe30027e8734715477185d95fad3.jpg?fit=around|130:130&crop=130:130;*,*",
+                    "title": "Chocolate Frangipane Croissant",
+                    "rating": "4.7",
+                    "amount": 317,
+                    "qty": 1,
+                    "description":"Bite Into This Rich Flaky And Buttery Almond Croissant Now With Sinful Dark Chocolate Infused Frangipane Baked Fresh On Order Allergens: Gluten, Milk, Nuts, Soya Nutritional Information( Per 100g):Protein (g)8.9,Carbohydrate (g)36.16,Fat (g)35.52,Energy (Kcal)504.62 Serving Size: 145g"
+                },
+                {
+                    "type": "veg",
+                    "id": 6,
+                    "img": "https://b.zmtcdn.com/data/dish_photos/a54/06a34001e8c40dc8dab5c3a4e01b1a54.jpg?fit=around|130:130&crop=130:130;*,*",
+                    "title": "Assorted Sweet Croissants Gift Box of 3",
+                    "rating": "4.1",
+                    "amount": 797,
+                    "qty": 1,
+                    "description":"Gift box of Almond Frangipane Croissant (1pc), Chocolate Frangipane Croissant (1pc) & Cinnamon Fangipane Croissant (1pc) Allergens: Gluten, Dairy, Nuts Serving Size: 405g"
+                }
+            ]
+        }
+    ]
+}
