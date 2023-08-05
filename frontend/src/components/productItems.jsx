@@ -124,8 +124,8 @@ const ProductItems = () => {
             <div className="route2FoodDelivery">
 
                <div className="icon1Food">
-                  <Link to='/foodapp'><img id="homeFood" src="https://shorturl.at/acSY3" alt="" height={50} width={50} /></Link>
-                  <Link to="/foodapp">Hungry Hub</Link>
+                  <Link to='/'><img id="homeFood" src="https://shorturl.at/acSY3" alt="" height={50} width={50} /></Link>
+                  <Link to="/">Hungry Hub</Link>
                </div>
 
             </div>
