@@ -8,6 +8,13 @@
     background-size: cover;
     height: 300px;
 }
+
+#marquee_style{
+    color:white;
+    font-Weight:bold;
+    font-Size:20px;
+       
+}
 .headPart1 h1{
     color: aliceblue;
     transform: translateY(100px);

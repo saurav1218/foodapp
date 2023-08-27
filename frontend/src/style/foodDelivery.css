@@ -1,3 +1,10 @@
+#marquee_fooddelivery{
+    color:black;
+    font-Weight:bold;
+    font-Size:15px;
+       
+}
+
 .routingFoodDelivery{
 display: flex;
 justify-content: space-between;

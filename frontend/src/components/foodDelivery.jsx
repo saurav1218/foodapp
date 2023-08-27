@@ -59,11 +59,13 @@ useEffect(()=>{
     })
  }
         
+   
      
   
   return (
-    <div className="foodDelivery">
 
+    <div className="foodDelivery">
+ <marquee behavior="" direction="" scrollamount='10' id="marquee_fooddelivery">please wait!! fetching data will take sometime. </marquee>
       <div className="routingFoodDelivery">
 
         <div className="route1FoodDelivery">

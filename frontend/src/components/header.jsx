@@ -7,8 +7,11 @@ const Header = () => {
   return (
    <div className="header">
         <div className="headPart1">
+<marquee behavior="" direction="" scrollamount='10' id="marquee_style">please wait!! fetching data will take sometime. </marquee>
+
             <h1>HungryHub</h1>
             <p>Discover the best food & drinks in Bengaluru</p>
+
         </div>
         <div className="headPart2">
           

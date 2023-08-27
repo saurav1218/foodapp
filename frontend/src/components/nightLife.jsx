@@ -35,6 +35,8 @@ const Nightlife = () => {
       }
     return (
         <div className="nightlife">
+ <marquee behavior="" direction="" scrollamount='10' id="marquee_fooddelivery">please wait!! fetching data will take sometime. </marquee>
+
 
             <div className="routingNightLife">
 
