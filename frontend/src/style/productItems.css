@@ -34,6 +34,7 @@
 .bake3Product input{
     width: 280px;
     height: 40px;
+    font-weight: bold;
     color: rgba(0, 0, 0, 0.305);
     border-radius: 10px;
     border: 1px solid rgba(0, 0, 0, 0.505);

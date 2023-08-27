@@ -68,7 +68,7 @@ const Nightlife = () => {
             </div>
             <h2>Nightlife Restaurants in Bengaluru</h2>
             <div className="filterNight">
-                <button>Filter: </button>
+                
                 <button onClick={low}>Cost: Low to High</button>
                 <button onClick={high}>Cost: High to Low</button>
                 <button onClick={rate}>Rating : 4.0+</button>
@@ -77,7 +77,7 @@ const Nightlife = () => {
                 Life.map((data) => {
                     return (
                         <div className="fetchingNightLife">
-                        <Link to="/brahmaBrews"><img  src={data.img} alt="" height={200} width={300} /></Link>  
+                       <img id="nightlife_image" src={data.img} alt="" height={200} width={300} /> 
 
                             <div className="fetch1Night">
                                 <h3>{data.title}</h3>

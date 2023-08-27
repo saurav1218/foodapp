@@ -96,7 +96,6 @@ useEffect(()=>{
       <h2>Delivery Restaurants in Bengaluru</h2>
 
       <div className="filterDemo">
-        <button>Filter: </button>
         <button onClick={low}>Cost: Low to High</button>
         <button onClick={high}>Cost: High to Low</button>
         <button onClick={rate}>Rating : 4.0+</button>

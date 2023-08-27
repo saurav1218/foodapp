@@ -73,7 +73,7 @@ const Dining = () => {
 
       <h2>Trending dining restaurants in Bengaluru</h2>
       <div className="filterDining">
-        <button>Filter: </button>
+      
         <button onClick={low}>Cost: Low to High</button>
         <button onClick={high}>Cost: High to Low</button>
         <button onClick={rate}>Rating : 4.0+</button>
@@ -84,7 +84,7 @@ const Dining = () => {
 
           return (
             <div className="fetchingDining">
-              <img src={data.img} alt="" height={200} width={300} />
+              <img id="dining_img" src={data.img} alt="" height={200} width={300} />
 
               <div className="fetch1Dining">
                 <h3>{data.title}</h3>
