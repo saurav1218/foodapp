@@ -25,7 +25,7 @@ const ProductItems = () => {
    useEffect(() => {
       let fetchingFoodData = async () => {
          let res = await axios.get('https://foodapp-oglx.onrender.com/foodhub')
-      
+
          setUpperItems(res.data)
 
          res.data.filter((x) => {
@@ -48,9 +48,9 @@ const ProductItems = () => {
 
 
    let veges = () => {
-       let res = domi.filter((x) => x.type == "veg")
-         setG(res)
-      
+      let res = domi.filter((x) => x.type == "veg")
+      setG(res)
+
 
 
    }
@@ -58,26 +58,26 @@ const ProductItems = () => {
 
    let nonveges = () => {
       let res = domi.filter((x) => x.type == "nonveg")
-       setG(res)
-      
+      setG(res)
+
    }
 
    let all = () => {
-       setG(domi)
+      setG(domi)
 
    }
    // img:req.body.img,
    // restaurant_title:req.body.restaurant_title,
    // rating:req.body.rating,
    // amount:req.body.amount,
-//   description:req.body.description,
-//   restaurant_address:req.body.restaurant_address,
-//   restaurant_timing:req.body.restaurant_timing
+   //   description:req.body.description,
+   //   restaurant_address:req.body.restaurant_address,
+   //   restaurant_timing:req.body.restaurant_timing
 
 
-   let submit = (title1, img1, description1, amount1,type1,qty1, rating1) => {
-     
-      axios.post('https://foodapp-oglx.onrender.com/cart', {  title: title1, img: img1, description: description1, amount: amount1, type:type1,qty:qty1,rating: rating1 }).then((res) => {
+   let submit = (title1, img1, description1, amount1, type1, qty1, rating1) => {
+
+      axios.post('https://foodapp-oglx.onrender.com/cart', { title: title1, img: img1, description: description1, amount: amount1, type: type1, qty: qty1, rating: rating1 }).then((res) => {
          alert(res.data.message)
       })
    }
@@ -97,6 +97,11 @@ const ProductItems = () => {
       fetchningFirst()
    })
 
+   let [search, setSearch] = useState("")
+
+   let filterItems = gg.filter(item => (
+      item.title.toLowerCase().includes(search) 
+   ))
 
    return (
       <div className="productItems">
@@ -164,11 +169,11 @@ const ProductItems = () => {
                            <div className="bake3Product">
 
                               <h1>Order Online</h1>
-                              <input type="text" placeholder="Search within menu" />
+                              <input type="text" value={search} onChange={(e) => setSearch(e.target.value)} placeholder="Search within menu" />
 
                               <div className="cart">
-                                 <img id="cartImg" src="https://cdn-icons-png.flaticon.com/128/1170/1170678.png" alt="" height={30} />
-                                 <Link to="/cart">   <p ref={cart2}>Cart <sup id="supCard" ref={cart1}>{cart.length}</sup></p></Link>
+                              <Link to="/cart">   <img id="cartImg" src="https://cdn-icons-png.flaticon.com/128/1170/1170678.png" alt="" height={30} />
+                             <p ref={cart2}>Cart <sup id="supCard" ref={cart1}>{cart.length}</sup></p></Link>
                               </div>
 
                            </div>
@@ -186,35 +191,35 @@ const ProductItems = () => {
             }
 
 
-             {
-                             gg.map((x) => {
-                                 
-                                 return (
-                                    <div className="restaurant">
+            {
+               filterItems.map((x) => {
 
-                                       <div className="fetchTheRestaurant">
-                                          <img src={x.img} alt="" />
-                                       </div>
+                  return (
+                     <div className="restaurant">
 
-                                       <div className="fetchTheRestaurant1">
+                        <div className="fetchTheRestaurant">
+                           <img src={x.img} alt="" />
+                        </div>
 
-                                          <h3>{x.title}</h3>
+                        <div className="fetchTheRestaurant1">
 
-                                          <div className="fetchTheRestaurant2">
-                                             <p id="thePizzaAmt">&#8377;{x.amount} for two</p>
-                                             <p id="thePizzaRating">{x.rating}&#9734;</p>
-                                          </div>
+                           <h3>{x.title}</h3>
 
-                                          <p id="thePizzaDec">{x.description}</p>
-                           <button id="cart" ref={addToCart} onClick={() => submit(x.title,x.img,x.description,x.amount,x.type,x.qty,x.rating)}>Add To Cart</button>
+                           <div className="fetchTheRestaurant2">
+                              <p id="thePizzaAmt">&#8377;{x.amount} for two</p>
+                              <p id="thePizzaRating">{x.rating}&#9734;</p>
+                           </div>
+
+                           <p id="thePizzaDec">{x.description}</p>
+                           <button id="productitems_cart" ref={addToCart} onClick={() => submit(x.title, x.img, x.description, x.amount, x.type, x.qty, x.rating)}>Add To Cart</button>
 
                         </div>
 
                      </div>
 
-                                          )
+                  )
                })
-             }
+            }
          </div>
 
       </div>

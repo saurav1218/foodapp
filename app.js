@@ -20,7 +20,7 @@ app.use(express.json())
 app.use(cors())
 app.use(express.urlencoded({extended:false}))
 
-mongoose.connect("mongodb+srv://sauravmishra1218:Saurav0402@cluster0.5paypiz.mongodb.net/?retryWrites=true&w=majority/food").then(()=>{
+mongoose.connect("mongodb+srv://sauravmishra1218:Saurav0402@cluster0.5paypiz.mongodb.net/?retryWrites=true&w=majority").then(()=>{
 console.log("database connected");
 })
 
@@ -72,7 +72,7 @@ app.post("/cart",(req,res)=>{
         data.save().then(()=>{
             res.send({message:'added to cart'})
         }).catch((err)=>{
-            res.send({message:"successful"})
+            res.send({message:"unsuccessful"})
         })
     }
    })
