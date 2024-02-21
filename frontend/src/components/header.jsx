@@ -17,7 +17,7 @@ const Header = () => {
           
          <Link to="/foodDelivery">
             <div className="card1">
-  <img src="https://shorturl.at/GKLU1" alt=""/>
+  <img src="https://b.zmtcdn.com/data/o2_assets/c0bb85d3a6347b2ec070a8db694588261616149578.png?output-format=webp" alt=""/>
   <h4>Order Online</h4>
     <p>Stay home and order to your doorstep</p>
 </div>
@@ -25,7 +25,7 @@ const Header = () => {
 
 <Link to="/dining">
             <div className="card2">
-  <img src="https://shorturl.at/hmGHR" alt=""/>
+  <img src="https://b.zmtcdn.com/data/o2_assets/78d25215ff4c1299578ed36eefd5f39d1616149985.png?output-format=webp" alt=""/>
   <h4>Dining</h4>
     <p>View the city's favourite dining venues</p>
 </div>
@@ -34,7 +34,7 @@ const Header = () => {
 
 <Link to="/nightlife">
             <div className="card3">
-  <img src="https://shorturl.at/giwAY" alt=""/>
+  <img src="https://b.zmtcdn.com/data/o2_assets/01040767e4943c398e38e3592bb1ba8a1616150142.png?output-format=webp" alt=""/>
   <h4>Nightlife and Clubs</h4>
     <p>Explore the city’s top nightlife outlets</p>
 </div>
