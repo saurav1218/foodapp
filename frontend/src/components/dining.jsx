@@ -62,7 +62,7 @@ const Dining = () => {
         <div className="route2Dining">
 
         <div className="icon1Dining">
-        <Link to="/"><img id="homeDining" src="https://shorturl.at/acSY3" alt="" height={50} width={50}/></Link>
+        <Link to="/"><img id="homeDining" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzVTbP2MOnlVorqmilauHe7Ny1SB6stghfdlBPPqLTuRfh9UnS3FhAkkH9CcwK-yi6wz0&usqp=CAU" alt="" height={50} width={50}/></Link>
         <Link to="/">Hungry Hub</Link>
         </div>
         
