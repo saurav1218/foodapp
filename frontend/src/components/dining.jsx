@@ -46,13 +46,13 @@ const Dining = () => {
 
           <div className="iconDining">
 
-          <Link to="/foodDelivery"> <img id="scooterDining" src="https://shorturl.at/wLWX6" alt="" height={50} width={50}/></Link> 
+          <Link to="/foodDelivery"> <img id="scooterDining" src="https://b.zmtcdn.com/data/o2_assets/c0bb85d3a6347b2ec070a8db694588261616149578.png?output-format=webp" alt="" height={50} width={50}/></Link> 
           <Link to="/foodDelivery">Delivery</Link>
 
-      <Link to="/dining"><img id="tableDining" src="https://shorturl.at/jloBS" alt="" height={50} width={50}/></Link>
+      <Link to="/dining"><img id="tableDining" src="https://b.zmtcdn.com/data/o2_assets/78d25215ff4c1299578ed36eefd5f39d1616149985.png?output-format=webp" alt="" height={50} width={50}/></Link>
           <Link to="/dining">Dining Out</Link>
 
-      <Link to="/nightlife"><img id="partyDining" src="https://shorturl.at/suwWY" alt="" height={50} width={50}/></Link>
+      <Link to="/nightlife"><img id="partyDining" src="https://b.zmtcdn.com/data/o2_assets/01040767e4943c398e38e3592bb1ba8a1616150142.png?output-format=webp" alt="" height={50} width={50}/></Link>
           <Link to="/nightlife">Nightlife</Link>
           </div>
 
